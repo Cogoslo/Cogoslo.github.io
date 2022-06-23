@@ -35,12 +35,13 @@ font-family:VT323;
 
 #mypic
 {
-  float:left;
   padding-left:50px;
+  width:200px;
+  flex-grow:0;
 }
 
 .navbar {
-  flex: 0 0 12%;
+  flex-shrink:0;
   background-color: grey;
   margin-bottom:1%;
   color:black;

@@ -13,9 +13,9 @@ position:fixed;}
 .horialign
 {
   display:flex;
-  min-width:100%;
+  min-width:80%;
   max-width:100%;
-  flex-direction:row;
+  flex-wrap: wrap-reverse;
 }
 
 .textzone
@@ -24,7 +24,7 @@ position:fixed;}
     color:black;
     font-family:VT323;
     font-size: 25px;
-    width:60%;
+    max-width:45.5%;
     margin-left: 5%;
     padding-top:0.9%;
     margin-bottom:1%;
@@ -35,6 +35,7 @@ position:fixed;}
     border-color:#cc8b00;
     border-style:ridge;
     border-top-style:solid;
+    flex-grow:1;
   }
 .textzone p1{
     color:black;
