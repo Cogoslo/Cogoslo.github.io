@@ -1,21 +1,37 @@
-body
-{font-size: 30px;
+
+ body
+{
+font-size: 30px;
  color:blue;
 background-color:black;
-position:fixed;}
-
+overflow-x:scroll;
+overflow-x:hidden;
+z-index: 1;
+height:100%;
+width:100%;
+animation-name:brightness;
+animation-duration:0.3s;
+animation-name:turn-off;
+animation-duration:0.3s;
+animation-direction: reverse;
+}
+.wrapper {
+  height: calc(100vh - 70px);
+  min-height: 100%;
+}
 @font-face {
     font-family: "VT323";
     src: url(fonts/VT323.ttf) format("truetype");
   }
-.animate
-{}
+
 .horialign
 {
+  position: relative;
   display:flex;
   min-width:80%;
   max-width:100%;
   flex-wrap: wrap-reverse;
+  min-height:220px;
 }
 
 .textzone
@@ -25,7 +41,7 @@ position:fixed;}
     font-family:VT323;
     font-size: 25px;
     max-width:45.5%;
-    margin-left: 5%;
+    margin-left:5%;
     padding-top:0.9%;
     margin-bottom:1%;
     padding-left:1.5%;

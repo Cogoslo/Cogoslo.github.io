@@ -36,8 +36,8 @@ font-family:VT323;
 #mypic
 {
   padding-left:50px;
-  width:200px;
-  flex-grow:0;
+  flex-basis:200px, 200px;
+  min-height: auto
 }
 
 .navbar {
