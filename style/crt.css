@@ -26,12 +26,18 @@
   pointer-events: none;
 }
 .crt {
-    animation-name:turn-off;
-    animation-duration:0.3s;
-    animation-direction:reverse;
-    position:fixed;
-    top:0%; right:0%; left:0%; bottom:0%;}
-
+  animation-name:brightness;
+  animation-duration:0.3s;
+  position:fixed;
+  top:0%; right:0%; left:0%; bottom:0%;
+}
+.animate {
+animation-name:turn-off;
+animation-duration:0.3s;
+animation-direction:reverse;
+position:fixed;
+top:0%; right:0%; left:0%; bottom:0%;
+}
 
 @keyframes turn-off{
   0%{
@@ -50,5 +56,18 @@
     transform:scale(0.000,0.0001) translate3d(0,0,0);
     -webkit-filter:brightness(50);
     filter:brightness(50);
+  }
+}
+
+@keyframes brightness {
+  0%{
+    filter:brightness(1);
+  }
+  60%{
+    filter:brightness(20%);
+  }
+  100%
+  {
+    filter:brightness(100%);
   }
 }
