@@ -1,10 +1,10 @@
 
 body
 {
+overflow-x: hidden;
 font-size: 30px;
 color:blue;
 background-color:black;
-overflow-y:scroll;
 z-index:1;
 height:100%;
 width:100%;
