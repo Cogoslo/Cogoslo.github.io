@@ -1,12 +1,15 @@
 body
 {font-size: 30px;
  color:blue;
-background-color:black;}
+background-color:black;
+position:fixed;}
 
 @font-face {
     font-family: "VT323";
     src: url(fonts/VT323.ttf) format("truetype");
   }
+.animate
+{}
 
 .textzone
   {
