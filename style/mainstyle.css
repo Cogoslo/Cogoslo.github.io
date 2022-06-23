@@ -10,6 +10,13 @@ position:fixed;}
   }
 .animate
 {}
+.horialign
+{
+  display:flex;
+  min-width:80%;
+  max-width:100%;
+  flex-direction:row;
+}
 
 .textzone
   {
@@ -19,11 +26,9 @@ position:fixed;}
     font-size: 25px;
     width:60%;
     margin-left: 5%;
-    float:left;
     padding-top:0.9%;
     margin-bottom:1%;
     padding-left:1.5%;
-    clear:both;
     position:relative;
     border-width:4px;
     border-top-width:20px;

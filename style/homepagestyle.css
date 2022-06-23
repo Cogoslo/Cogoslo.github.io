@@ -36,17 +36,16 @@ font-family:VT323;
 #mypic
 {
   float:left;
-  padding-left: 50px;
-
+  padding-left:50px;
 }
 
 .navbar {
   background-color: grey;
   margin-bottom:1%;
   color:black;
+  width:12%;
   font-family:VT323;
   font-size: 25px;
-  width:10%;
   margin-left: 5%;
   padding:0.5%;
   float:left;
@@ -56,6 +55,8 @@ font-family:VT323;
   border-color:#cc8b00;
   border-style:groove;
   border-top-style: solid;
+  align-self:stretch;
+  flex-wrap: wrap;
 }
 .navbar * {
     white-space:pre-line;
