@@ -20,12 +20,16 @@ position:fixed;}
     width:60%;
     margin-left: 5%;
     float:left;
-    padding:0.5%;
+    padding-top:0.9%;
+    margin-bottom:1%;
+    padding-left:1.5%;
     clear:both;
     position:relative;
     border-width:4px;
-    border-color:black;
+    border-top-width:20px;
+    border-color:#cc8b00;
     border-style:ridge;
+    border-top-style:solid;
   }
 .textzone p1{
     color:black;
@@ -33,11 +37,11 @@ position:fixed;}
     font-size: 25px;
    }
 
-.textzone #button
+ #button
 {
 position:absolute;
-height:25px;
+height:17px;
 width:auto;
-top: 0px;
+top: -18px;
 right: 0px;
 }

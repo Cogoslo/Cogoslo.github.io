@@ -52,8 +52,10 @@ font-family:VT323;
   float:left;
   position:relative;
   border-width:4px;
-  border-color:black;
-  border-style:ridge;
+  border-top-width:20px;
+  border-color:#cc8b00;
+  border-style:groove;
+  border-top-style: solid;
 }
 .navbar * {
     white-space:pre-line;
@@ -64,8 +66,7 @@ font-family:VT323;
   width:1%;
   position:fixed;
   float:left;
-  background-color:orange;
+  background-color:#cc8b00;
   top:0;
   left:0;
-  opacity:20%;
 }
