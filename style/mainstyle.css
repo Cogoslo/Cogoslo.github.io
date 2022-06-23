@@ -1,19 +1,18 @@
 
- body
+body
 {
 font-size: 30px;
- color:blue;
+color:blue;
 background-color:black;
-overflow-x:visible;
 overflow-y:scroll;
-z-index: 1;
+z-index:1;
 height:100%;
 width:100%;
 animation-name:brightness;
 animation-duration:0.3s;
 animation-name:turn-off;
 animation-duration:0.3s;
-animation-direction: reverse;
+animation-direction:reverse;
 }
 .wrapper {
   height: calc(100vh - 70px);
