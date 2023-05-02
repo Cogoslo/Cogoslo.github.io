@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by LucyNeko8</title>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/slider.css">
+<script  src="./buzz.js"></script>
+
+<link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+<body class=body>
+<div class=title>
+Ada's Shocker Control
+</div>
+<div class=flexbox>
+  <div class=sliderbox>
+    <div class=rangedisplay>
+  <p>Intensity: <output id="intensity"></output></p>
+    </div>
+    <div class="slidecontainer" style="padding-bottom: 50px">
+      <input type="range" min="1" max="100" value="50" class="slider" id="intensrange">
+    </div>
+    <div class=rangedisplay>
+  <p>length: <output id="length"></output></p>
+    </div>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="15" value="50" class="slider" id="lengthrange">
+    </div>
+  </div>
+  <div class=minislider>
+    <div class=rangedisplay>
+  <p>Value: <output id="warn1out"></output></p>
+    </div>
+    <div class="slidecontainer" style="padding-bottom: 50px">
+      <input type="range" min="1" max="100" value="50" class="slider" id="warnrange1">
+    </div>
+    <div class=rangedisplay>
+  <p>Value: <output id="warn2out"></output></p>
+    </div>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="warnrange2">
+    </div>
+    </div>
+  </div>
+<div class=flexbox>
+<div class=sliderbox style="padding-left:20%">
+
+<button class=button onclick="shockme()">
+<img src=img/shockbutton.png>
+</button>
+</div>
+<div class=sliderbox>
+
+<button class=button onclick="buzzme()">
+<img src=img/vibbuton.png>
+</button>
+</div>
+</div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

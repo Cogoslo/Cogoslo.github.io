@@ -1,0 +1,59 @@
+.body
+{
+  background-color:#3d3d3d;
+}
+.title
+{
+  color:#ffffff;
+  font-family:monospace;
+  border-radius:5px;
+  border-color:#b8b8b8;
+  font-size:70px;
+  text-align: center;
+  padding-bottom:5%
+}
+.rangedisplay
+{
+font-family: 'Seven Segment', sans-serif;
+object-position: right;
+font-size:40px;
+color:red;
+}
+.flexbox
+{
+  .flex-container;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+}
+.sliderbox
+{
+  flex-grow:6;
+  flex-shrink: 1;
+  order: 0;
+  padding-right:10%;
+  padding-left:3%;
+}
+.minislider
+{
+object-position:right;
+padding-right:10%;
+flex-grow:3;
+order: 1;
+}
+
+
+.button
+{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+.toggle
+.numdisplay
+.minidisplay

@@ -1,0 +1,4 @@
+'{"Username":"puppy73","Name":"TG_Bot_Script","Code":"17519CD8GAP","Intensity":"6","Duration":"1","Apikey":"5c678926-d19e-4f86-42ad-21f5a76126db","Op":"0"}' -H 'Content-Type: application/json' https://do.pishock.com/api/apioperate
+
+Ultimate goal is to create something that can do
+a var for dur/intensity, and also have something that can vibrate and then to a rand operation for that for the warning system
