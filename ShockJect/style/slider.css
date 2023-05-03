@@ -22,14 +22,13 @@ box-shadow: inset 3px 4px 5px #000;
   opacity:1;
 }
 
-.slider::-webkit-slider-thumb
-{
--webkit-appearange:none;
-appearance: none;
-width:px;
-height:25px;
-background:#eed202;
-box-shadow:;
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #eed202;
+  cursor: pointer;
 }
 
 .slider::-moz-range-thumb
