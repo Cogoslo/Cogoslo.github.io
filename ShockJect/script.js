@@ -1,3 +1,5 @@
+//slider functonality
+
 var length = document.getElementById("lengthrange");
 var lenoutput = document.getElementById("length");
 lenoutput.innerHTML = length.value; // Display the default slider value
@@ -31,6 +33,9 @@ warn2.oninput = function() {
   warn2out.innerHTML = this.value;
 }
 
+
+
+//shock/buzz functions
 function buzzme() {
 
 let data = '{"Username":"Adainthewired","Name":"Adascript","Code":"26F92B4BBE3","Intensity":' +'"' +intensity.value + '"' +',"Duration": ' +'"' + length.value + '"' +',"Apikey":"330191b3-688c-4a1f-a80f-0026942df895","Op":"1"}'
